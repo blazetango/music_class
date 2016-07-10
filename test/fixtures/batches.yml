@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  instrument: MyString
+  student_count: 1
+  schedule: 2016-06-30 20:45:23
+
+two:
+  instrument: MyString
+  student_count: 1
+  schedule: 2016-06-30 20:45:23

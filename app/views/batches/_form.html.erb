@@ -1,0 +1,14 @@
+<%= simple_form_for(@batch) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :instrument, collection: Student::INSTRUMENT %>
+    <%= f.input :student_count %>
+    <%= f.input :schedule %>
+    <%= f.input :what_is_taught %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

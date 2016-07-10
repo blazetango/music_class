@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Instrument:</strong>
+  <%= @batch.instrument %>
+</p>
+
+<p>
+  <strong>Student count:</strong>
+  <%= @batch.student_count %>
+</p>
+
+<p>
+  <strong>Schedule:</strong>
+  <%= @batch.schedule %>
+</p>
+
+<%= link_to 'Edit', edit_batch_path(@batch) %> |
+<%= link_to 'Back', batches_path %>
