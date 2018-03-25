@@ -6,6 +6,7 @@ class BatchesController < ApplicationController
   def index
     @batches = Batch.all
   end
+  # this is A test commit
 
   # GET /batches/1
   # GET /batches/1.json
